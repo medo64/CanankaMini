@@ -1,5 +1,11 @@
 syntax: glob
 
-datasheets/
-dist/
-research/
+datasheets/**
+dist/**
+research/**
+
+src/*-backups
+src/fp-info-cache
+src/*.kicad_prl
+src/*.kicad_*.lck
+src/*.gcode
