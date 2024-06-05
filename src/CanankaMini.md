@@ -4,9 +4,9 @@
 
 |  # | Part                                               | RefDes  | Preferred Part Number      |
 |---:|----------------------------------------------------|---------|----------------------------|
-|  2 | C 100nF X7R 16V (0805)                             | C1-C2   | 478-5311-1-ND              |
-|  1 | C 330nF X7R 16V (0805)                             | C3      | 732-7669-1-ND              |
-|  2 | C 10uF X5R 16V (0805)                              | C4-C5   | 1276-1096-1-ND             |
+|  4 | C 100nF X7R 16V (0805)                             | C1-C4   | 478-5311-1-ND              |
+|  1 | C 330nF X7R 16V (0805)                             | C5      | 732-7669-1-ND              |
+|  3 | C 10uF X5R 16V (0805)                              | C6-C8   | 1276-1096-1-ND             |
 |  1 | D Schottky 30V 800mA [CUS08F30,H3F] (SOD323)       | D1      | CUS08F30H3FCT-ND           |
 |  4 | DS LED (0805)                                      | DS1-DS4 | 475-1415-1-ND              |
 |  1 | J USB A, plug, horizontal                          | J1      | WM3983CT-ND                |
@@ -31,13 +31,13 @@ that can happen with different ground potentials.
 
 #### Specifications
 
-| Property      | Value                     |
-|---------------|---------------------------|
-| PCB size      | 48.5 x 16.5 mm ~ 1.3 sqin |
-| Voltage (in)  | 5 V ±10%                  |
-| Current (in)  | 500 mA (max)              |
-| Voltage (out) | 5 V ±15%                  |
-| Current (out) | 400 mA (max)              |
+| Property      | Value                      |
+|---------------|----------------------------|
+| PCB size      | 48.5 x 16.5 mm ~ 1.3 sqin  |
+| Voltage (in)  | 5 V ±10%                   |
+| Current (in)  | 500 mA (max)               |
+| Voltage (out) | 5 V ±15%                   |
+| Current (out) | 425 mA (min)               |
 
 For testing purposes, it is possible to power other devices from 5V USB
 connection. However, considering CAN bus is usually 12V based, this is
