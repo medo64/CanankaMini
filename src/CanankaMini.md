@@ -12,8 +12,8 @@
 |  1 | J MC 1,5/ 4-G-3,81                                 | J2      | ED2810-ND                  |
 |  1 | L Ferrite 40Ohm (0805)                             | L1      | 445-2201-1-ND              |
 |  2 | Q MOSFET-P 20V 4.2A ±8Vgs [DMG2305UX-13] (SOT23-3) | Q1-Q2   | DMG2305UX-13DICT-ND        |
-|  1 | R 118 0.125W (0805)                                | R1      | P118CCT-ND                 |
-|  3 | R 1K 0.125W (0805)                                 | R2-R4   | RMCF0805FT1K00CT-ND        |
+|  1 | R 56 0.125W (0805)                                 | R1-R2   | P118CCT-ND                 |
+|  3 | R 1K 0.125W (0805)                                 | R3-R5   | RMCF0805FT1K00CT-ND        |
 |  1 | U MCP2221A (TSSOP-14)                              | U1      | MCP2221A-I/ST-ND           |
 |  1 | U PIC18F25K80 (SSOP-28)                            | U2      | PIC18F25K80-I/SS-ND        |
 |  1 | U MCP2561 (SOIC-8)                                 | U3      | MCP2561-E/SN-ND            |
@@ -30,7 +30,7 @@ that can happen with different ground potentials.
 
 | Property      | Value                      |
 |---------------|----------------------------|
-| PCB size      | 47 x 16.5 mm ~ 1.3 sqin  |
+| PCB size      | 46.5 x 16.5 mm ~ 1.2 sqin  |
 | Voltage (in)  | 5 V ±10%                   |
 | Current (in)  | 100 mA (max)               |
 
