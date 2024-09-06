@@ -874,7 +874,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2305UX-13"
+		(property "Value" "DMP3056L-7"
 			(at 0 2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4073,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2305UX-13"
+		(property "Value" "DMP3056L-7"
 			(at 0 2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
